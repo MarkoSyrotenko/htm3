@@ -18,3 +18,51 @@
     padding: 10px 15px;
     font-size: 18px;
 }
+
+
+
+
+
+.tlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tlist li {
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #111;
+    list-style-image:url('img/unchecked_16.png');
+    list-style-position: inside;
+}
+
+.tlist li:nth-child(odd) {
+    background-color: #ADD8E6;
+}
+
+.tlist li:nth-child(even) {
+    background-color: #A5CCDA;
+}
+
+.tlist li span {
+    
+    width: 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.tlist li.completed {
+    background-color: #E2E2E2;
+    list-style-image:url('img/checked_16.png');
+}
+
+.tlist li.completed span {
+    text-decoration: line-through;
+}
+
+.cross {
+    color: darkred;
+    margin-left: 15px;
+    font-size: 14px;
+}
