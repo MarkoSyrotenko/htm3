@@ -1,0 +1,20 @@
+.flist {
+    background-color: #ED9EAE;
+    padding: 10px;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+.flist li {
+    background-color: #C66376;
+    color: white;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.flist li span {
+    background-color: #9E354A;
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
